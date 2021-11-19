@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+}
+.ok{
+    font-family: 'Arial',sans-serif;
+    background: black;
+    color: white;
+}
+
+.bg{
+    position: relative;
+    padding: 0;
+    height: 100%;
+}
+
+.bg::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background: url('background.jpg') center center/cover;
+}
+
+.top-part{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    width: 15%;
+    height: 10%;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.btn{
+    margin-left: 450px;
+    margin-top: 10px;
+
+}
+.top{
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.top h1{
+    font-weight: 700;
+    font-size: 45px;
+    width: 500px;
+    margin: auto;
+}
+.cancel{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.gs-1{
+    background: red;
+    color: white;
+    padding: 15px;
+    border-style: none;
+    margin-left: 0;
+    width: 200px;
+    font-size: 20px;
+    margin: 0px 0px 50px 0px;
+}
+
+.email{
+    margin-top: 2px;
+    padding: 16px;
+    padding-top: 19.5px;
+    border-style: none;
+    margin: 0px 0px 50px 0px;
+}
+
+.mid-part{
+    padding: 10px;
+    border-top: 5px solid #3e4344;
+    border-bottom: 5px solid #3e4344;
+    height: 400px;
+}
+
+.mid-part .container{
+    margin-bottom: 200px;
+}
+
+.mid-text{
+    width: 550px;
+    padding: 10px;
+    text-align: left;
+    float: left;
+    padding-top: 100px;
+}
+.mid-text h1{
+    font-weight: 700;
+    font-size: 50;
+}
+
+.tv{
+    position: relative;
+    float: right;
+    margin-top: 20px;
+    padding-right: 400px;
+}
+
+.tv img{
+    position: absolute;
+    width: 450px;
+    height: 350px;
+    padding: 20px;
+    margin:auto;
+}
+
+.tv video{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 74px;
+    margin-top: 18px;
+}
+
+.faq{
+    margin-top: 50px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.title h1{
+    font-weight: 700;
+    font-size: 50;
+    padding: 50px;
+}
+
+#q-1{
+    display: inline-block;
+    border: 1px solid #3e4344;
+    width: 800px;
+    text-align: left;
+    background: #3e4344;
+    padding: 20px;
+    margin: auto;  /*why using align center the text is not in center?why use margin auto? */
+    border-bottom: 10px solid black;
+    color: white;
+}
+    
+
+#hidden-1{
+    display: none;
+    border: 1px solid #3e4344;
+    width: 800px;
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    background: #3e4344;
+    border-bottom: 10px solid black;
+    border-width: 100%;
+    border-radius: 0px;
+    font-size: 20px;
+}
+
+#q-2{
+    border: 1px solid #3e4344;
+    width: 800px;
+    text-align: left;
+    background: #3e4344;
+    padding: 20px;
+    margin: auto;  /*why using align center the text is not in center?why use margin auto? */
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+#hidden-2{
+    display: none;
+    border: 1px solid #3e4344;
+    width: 800px;
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    background: #3e4344;
+    border-bottom: 5px solid black;
+    font-size: 20px;
+}
+
+.bottom{
+    border-bottom: 5px solid #3e4344;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.credit{
+    padding: 20px;
+    color: #3e4344;
+}
+.columns{
+    padding: 20px;
+    color: #3e4344;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
